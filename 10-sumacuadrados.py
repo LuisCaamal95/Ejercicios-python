@@ -1,0 +1,29 @@
+#Programa que imprime la suma de los cuadrados de n numeros 
+print "--------------------------------------------------------------"
+print "- Programa que imprime la suma de los cuadrados de n numeros -"
+print "--------------------------------------------------------------"
+print ""
+print "INTRODUZCA EL NUMERO: "
+num = input()
+print ""
+
+i = 1
+contador = 1
+suma = 0.0
+n = 1
+lista = []
+while contador<=num:
+	
+	n = i ** 2
+	suma = suma + n
+	i += 1
+	contador += 1
+	lista.append(n)
+	#print (n)
+print ""	
+print "Lista de numeros: ", lista
+print "suma de numeros: ", suma	
+
+print "---------------------------------------"
+print "-       PROGRAMA FINALIZADO           -"
+print "---------------------------------------"
